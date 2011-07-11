@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* -------------
+
+SonicByte Project
+Escrito por: Rodrigo Noales - Sonicbyte.com
+
+------------- */
+
+/* Sólo para mostrar los bloques de estructura en el navegador, borrar y eliminar las class en el html :)*/
+.brd                                    {border:1px dashed #ccc;}
+/*  */
+
+/* -------------CLASES COMUNES------------- */
+.clearfix:after                         {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearblock:before                      {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.left					{float:left; }
+.right					{float:right;}
+a                                       {display: block;}
+/* ------------- MAIN LAYOUT ------------- */
+#container				{width:1020px; height:100%; margin:0 auto; }
+#container   header			{width:1000px; height:130px; padding: 10px; margin: 0 0 20px 0;}
+#container  #contenido			{width:1000px; height:auto; padding:0 10px; min-height:640px;}
+
+/* ------------- NAVEGACION ------------- */
+#container   nav                        {width: 600px; height: auto; margin:18px 0; padding: 10px 5px;}
+#container   nav li                     {display: inline-block;}
+#container   nav li a                   {padding:5px 5px 1px 5px;}
+
+/* ------------- CONTENIDO ------------- */
+
+/* ------------- FOOTER ------------- */
+#container footer			{width: 1000px; padding: 10px; height: auto;}
+
+/* ------------- FORMS ------------- */
+input[type="submit"]                    {background: #ccc; height:35px; pointer:cursor; display: block;}
+input[type="submit"]:hover              {background: #369; color: #fff;}
+input, textarea                         {clear:both; padding:5px; margin:10px 5px; height:25px; border: 1px solid #e8e8e8;}
+fieldset				{margin:10px 0px;}
+label					{padding:0px;}
+
+/* ----------------- Correcciónes layout y estilo para IE 7 / 8 -------------------  */
+.ie7 .red10, .ie8 .red10                        	{-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; behavior: url(lib/pie/PIE.htc);}
+.ie7 .red5, .ie8 .red5                                  {-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; behavior: url(lib/pie/PIE.htc);}
+.ie7 .sombra, .ie8 .sombra				{-moz-box-shadow:0 0 4px #666; -webkit-box-shadow: 0 0 4px #666; box-shadow: 0 0 8px #666; behavior: url(lib/pie/PIE.htc);}
+.ie7 .sombraSuave, .ie8 .sombraSuave            	{-moz-box-shadow:2px 2px 6px #666; -webkit-box-shadow: 2px 2px 6px #666; box-shadow: 2px 2px 6px #666; behavior: url(lib/pie/PIE.htc);}
+.ie7 .clearfix, .ie8 .clearfix                          {zoom: 1;}
+.ie7 #container  nav li, .ie8 #container  nav li	{display:block !important; float:left; }
+.ie7 #container, .ie8 #container                        {position:relative !important; z-index:1 !important;}
+.ie7 input[type="submit"]                    {background: #ccc; height:37px; padding-top: 17px; pointer:cursor;}
+
+/* */

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document
+
+SonicByte Project
+Escrito por: Rodrigo Noales - Sonicbyte.com
+
+*/
+@media all and (max-width: 1405px) {
+    #container								{width:1020px; height:100%; margin:0 auto; }
+    header								{width:1000px;}
+    #contenido                                                          {width:1020px !important;}
+
+}
+@media all and (max-width: 1404px) {
+    #container								{ width:940px; height:100%; margin:0 auto; }
+    header, footer							{ width:920px !important;}
+    #contenido                                                          {width:920px !important;}
+
+
+}
+@media all and (max-width: 1103px) {
+    #container								{ width:920px; height:100%; margin:0 auto; }
+    header, footer							{ width:900px !important;}
+    nav                                                                 {width:550px !important;}
+    #contenido                                                          {width:900px !important;}
+
+
+}
+@media all and (max-width: 1040px) {
+    #container								{width:880px; height:100%; margin:0 auto; }
+    header, footer							{width:860px !important;}
+    nav                                                                 {width:500px !important;}
+    #contenido                                                          {width:860px !important;}
+
+
+}
+@media all and (max-width: 899px) {
+    #container								{ width:720px; height:100%; margin:0 auto; }
+    header, footer							{width:700px !important;}
+    #contenido                                                  	{width:700px !important;}
+    nav                                                                 {clear:both !important; float:left !important;}
+
+}
+
+@media all and (max-width: 897px) {
+    #container								{ width:530px; height:100%; margin:0 auto; }
+    header, footer							{ width:500px !important;}
+    footer								{ width: 83% !important; height: auto !important; margin-top:40px; float:left; padding:10px;}
+    nav                                                                 {clear:both !important; float:left !important;}
+    #contenido                                                  	{width:500px !important;}
+}

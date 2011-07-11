@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* -------------
+
+SonicByte Project
+Escrito por: Rodrigo Noales - Sonicbyte.com
+
+------------- */
+/* -------------CLASES COMUNES------------- */
+a, a:hover			{text-decoration:none;}
+a				{color:#999;}
+ul li 				{list-style:inside square;}
+ol li 				{list-style:decimal;}
+.resaltar 			{color:#336699; font-weight:bold;}
+.red10  			{-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+.red5           		{-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+.sombra				{-moz-box-shadow:0 3px 8px #333; -webkit-box-shadow: 0 3px 8px #333; box-shadow: 0 3px 8px #333;}
+.sombraSuave			{-moz-box-shadow:0px 0px 4px #444; -webkit-box-shadow: 0px 0px 4px #444; box-shadow:0px 0px 4px #444;}
+.sombraIn			{-moz-box-shadow:inset 0px 0px 2px #999; -webkit-box-shadow:inset 0px 0px 2px #999; box-shadow:inset 0px 0px 2px #999;}
+
+/* ------------- TIPOGRAFIA  -------------*/
+h1, h2, h3, p                   {font-family:Arial, Helvetica, sans-serif; letter-spacing:0.5px;}
+h1                              {font-size:50px; color:#000; line-height: 81px;}
+h2                              {font-size:31px; color:#333; line-height: 50px;}
+h3                              {font-size:19px; color:#555; line-height: 31px;}
+p			        {font-size:12px; color:#777; line-height: 19px;}
+
+/* ------------- MAIN LAYOUT ------------- */
+#container                                     {}
+
+/* ------------- NAVEGACION ------------- */
+#container   nav li a           {border-bottom: 1px solid #ccc;}
+#container   nav li a:hover     {color:#369;}
+
+/* ------------- CONTENIDO ------------- */
+
+/* ------------- FOOTER ------------- */
+#container footer               {}
+
+/* ------------- FORMS ------------- */
+input, textarea                 {border:none;}
